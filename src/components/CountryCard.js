@@ -10,6 +10,15 @@ export default function CountryCard({ country }) {
       />
       <div className="p-3 bg-white">
         <h3 className="text-xl font-bold">{country.name}</h3>
+        <p>
+          <strong>Population</strong>: {country.population}{" "}
+        </p>
+        <p>
+          <strong>Region</strong>: {country.region}{" "}
+        </p>
+        <p>
+          <strong>Capital</strong>: {country.capital}{" "}
+        </p>
       </div>
     </div>
   );
